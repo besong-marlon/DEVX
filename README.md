@@ -1,2 +1,2 @@
-# DEVX
-https://devx-project.netlify.app/
+# DEVX PROJECT
+A landing page created with HTML & CSS
