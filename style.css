@@ -103,10 +103,10 @@
   border-radius: 8px;
 }
 .heroWrapper h1 {
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   margin-top: 30px;
-  width: 300px;
+  width: 380px;
 }
 .heroWrapper p {
   font-size: 16px;
@@ -172,6 +172,7 @@
 .statistics h2 {
   font-size: 18px;
   text-align: center;
+  margin: 0 10px;
 }
 .statisticsWrapper {
   display: flex;
