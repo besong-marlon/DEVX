@@ -264,7 +264,7 @@
   margin-top: 50px;
 }
 .storyWrapper .story-text {
-  width: 450px;
+  width: 380px;
 }
 .storyWrapper .story-text h3 {
   font-size: 35px;
@@ -282,6 +282,7 @@
   line-height: 100%;
   letter-spacing: 0%;
   margin-bottom: 15px;
+  font-weight: 700;
 }
 .storyWrapper .story-text h4 span {
   color: #60269e;
@@ -292,9 +293,10 @@
   line-height: 100%;
   letter-spacing: 0%;
   margin-bottom: 10px;
+  font-weight: 300;
 }
 .story-img img {
-  width: 450px;
+  width: 380px;
   border-radius: 20px;
 }
 
