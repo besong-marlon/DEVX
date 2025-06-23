@@ -264,7 +264,7 @@
   margin-top: 50px;
 }
 .storyWrapper .story-text {
-  width: 380px;
+  width: 350px;
 }
 .storyWrapper .story-text h3 {
   font-size: 35px;
@@ -288,7 +288,7 @@
   color: #60269e;
 }
 .storyWrapper .story-text p {
-  font-size: 20px;
+  font-size: 16px;
   font-size: 24.02px;
   line-height: 100%;
   letter-spacing: 0%;
@@ -296,10 +296,9 @@
   font-weight: 300;
 }
 .story-img img {
-  width: 380px;
+  width: 350px;
   border-radius: 20px;
 }
-
 @media (min-width: 600px) {
   .storyWrapper {
     display: flex;
@@ -308,7 +307,7 @@
     align-items: center;
     gap: 40px;
     margin-top: 50px;
-    padding: 0 40px;
+    padding: 60px 40px;
   }
   .story-img img {
     width: 300px;
@@ -336,3 +335,54 @@
   }
 }
 /*End of story section*/
+
+/*Start of what sets us apart*/
+.what-sets-us-apart {
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 20px;
+}
+.what-sets-us-apart .main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5eff9;
+  border-radius: 12px;
+  padding: 20px;
+}
+.what-sets-us-apart h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.what-sets-us-apart img {
+  width: 50px;
+  height: 50px;
+}
+.what-sets-us-apart h3,
+h4 {
+  font-weight: bold;
+}
+@media (min-width: 600px) {
+  .what-sets-us-apart {
+    text-align: center;
+    padding: 50px;
+  }
+  .what-sets-us-apart h3 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 900px) {
+  .what-sets-us-apart {
+    text-align: center;
+    padding: 100px;
+  }
+  .what-sets-us-apart h3 {
+    font-size: 30px;
+  }
+  .what-sets-us-apart .main-content {
+    padding: 50px;
+  }
+}
+
+/*End of what sets us apart*/
