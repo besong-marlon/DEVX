@@ -23,7 +23,7 @@ This project demonstrates how how a proffesional looking landing page can be bui
 1. Download or clone the repository:
 
 ```
-	bash git clone https://github.com/yourname/devx.git
+	bash git clone https://github.com/besong-marlon/DEVX.git
 ```
 
 2. Open index.html in any web browser. Thats it, no setup or dependencies rquired
