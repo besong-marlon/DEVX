@@ -410,10 +410,10 @@ h4 {
   align-items: center;
   background-color: #f9f3fd;
   padding: 0 20px;
-  width: 100%;
 }
 .developer-community-text {
-  padding-top: 100px;
+  padding-top: 50px;
+  width: 350px;
   padding-bottom: 100px;
   padding-right: 60px;
   background-image: url(assets/082.png);
@@ -436,14 +436,14 @@ h4 {
   background-image: url(assets/080.png);
   background-repeat: no-repeat;
   background-position: center 0;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .developer-community-img img {
   width: 330px;
   height: 250px;
   border-radius: 15px;
 }
-/*End of developer community section*/
 
 /* Bigger Screen sizes */
 @media (min-width: 600px) {
@@ -460,9 +460,12 @@ h4 {
   .developer-community {
     display: flex;
     padding: 0 160px 0 160px;
-    width: auto;
   }
   .developer-community-text h3 {
     font-size: 40px;
   }
+  .developer-community-text {
+    width: 500px;
+  }
 }
+/*End of developer community section*/
