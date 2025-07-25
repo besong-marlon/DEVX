@@ -65,7 +65,7 @@
     align-items: center;
     padding: 20px;
     gap: 20px;
-  } 
+  }
   .navMenu {
     display: flex;
     justify-content: center;
@@ -276,7 +276,7 @@
   margin-bottom: 10px;
 }
 .storyWrapper .story-text h4 {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "PT Sans", sans-serif;
   font-size: 24.02px;
   line-height: 100%;
@@ -288,7 +288,7 @@
   color: #60269e;
 }
 .storyWrapper .story-text p {
-  font-size: 14px;
+  font-size: 12px;
   font-size: 24.02px;
   line-height: 100%;
   letter-spacing: 0%;
