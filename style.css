@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
 }
+
+/* Mobile first design */
 .header {
   width: 100%;
   background-color: #f9f3fd;
@@ -58,6 +60,8 @@
 .callToAction button:hover {
   background-color: #592491;
 }
+
+/* Bigger screen sizes */
 @media (min-width: 600px) {
   .headerWrapper {
     display: flex;
@@ -89,6 +93,7 @@
   }
 }
 
+/* Mobile first design */
 .heroWrapper {
   display: flex;
   flex-direction: column;
@@ -115,6 +120,7 @@
   width: 300px;
 }
 
+/* Bige=ger screen sizes */
 @media (min-width: 600px) {
   .heroWrapper span {
     border: 1px solid #60269e;
@@ -161,6 +167,8 @@
     width: 500px;
   }
 }
+
+/* Mobile first design */
 .statistics {
   background-color: #f9f3fd;
   text-align: center;
@@ -189,6 +197,8 @@
   color: #60269e;
   font-weight: 300;
 }
+
+/* Bigger screen sizes */
 @media (min-width: 600px) {
   .statisticsWrapper {
     flex-direction: row;
@@ -254,6 +264,7 @@
   }
 }
 
+/* Mobile first design */
 /*Start of story section*/
 .storyWrapper {
   display: flex;
@@ -299,6 +310,8 @@
   width: 350px;
   border-radius: 20px;
 }
+
+/* Bigger screen sizes */
 @media (min-width: 600px) {
   .storyWrapper {
     display: flex;
@@ -336,6 +349,7 @@
 }
 /*End of story section*/
 
+/* Mobile first design */
 /*Start of what sets us apart*/
 .what-sets-us-apart {
   text-align: center;
@@ -363,6 +377,8 @@
 h4 {
   font-weight: bold;
 }
+
+/* Bigger screen sizes */
 @media (min-width: 600px) {
   .what-sets-us-apart {
     text-align: center;
@@ -384,5 +400,66 @@ h4 {
     padding: 50px;
   }
 }
-
 /*End of what sets us apart*/
+
+/* Mobile first design */
+/*Start of developer community section*/
+.developer-community {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f3fd;
+  padding: 0 20px 0 20px;
+}
+.developer-community-text {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 60px;
+  background-image: url(assets/082.png);
+  background-repeat: no-repeat;
+  background-position: center 400px;
+}
+.developer-community-text h3 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.developer-community-text span {
+  font-weight: bolder;
+}
+.developer-community-text li {
+  font-size: 18px;
+  margin: 16px;
+}
+.developer-community-img {
+  padding-top: 100px;
+  background-image: url(assets/080.png);
+  background-repeat: no-repeat;
+  background-position: center 0;
+  margin: 0 auto;
+}
+.developer-community-img img {
+  width: 330px;
+  height: 250px;
+  border-radius: 15px;
+}
+/*End of developer community section*/
+
+/* Bigger Screen sizes */
+@media (min-width: 600px) {
+  .developer-community {
+    display: flex;
+    padding: 0 50px 0 50px;
+  }
+  .developer-community-text h3 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 900px) {
+  .developer-community {
+    display: flex;
+    padding: 0 160px 0 160px;
+  }
+  .developer-community-text h3 {
+    font-size: 40px;
+  }
+}
