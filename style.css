@@ -409,7 +409,8 @@ h4 {
   justify-content: center;
   align-items: center;
   background-color: #f9f3fd;
-  padding: 0 20px 0 20px;
+  padding: 0 20px;
+  width: 100%;
 }
 .developer-community-text {
   padding-top: 100px;
@@ -449,6 +450,7 @@ h4 {
   .developer-community {
     display: flex;
     padding: 0 50px 0 50px;
+    width: auto;
   }
   .developer-community-text h3 {
     font-size: 30px;
@@ -458,6 +460,7 @@ h4 {
   .developer-community {
     display: flex;
     padding: 0 160px 0 160px;
+    width: auto;
   }
   .developer-community-text h3 {
     font-size: 40px;
