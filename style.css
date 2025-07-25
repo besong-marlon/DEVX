@@ -469,3 +469,255 @@ h4 {
   }
 }
 /*End of developer community section*/
+
+/* Mobile first design */
+/*Start of grow your career section*/
+.grow-your-career {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f3fd;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.career-content {
+  padding: 50px 100px 0 50px;
+  background-color: #60269e;
+  border-radius: 12px;
+  color: white;
+  width: 300px;
+}
+.career-text {
+  width: 330px;
+}
+.career-text h3 {
+  font-size: 35px;
+}
+.career-text h4 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.career-text .career-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+.career-img img {
+  width: 370px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Bigger screen sizes */
+@media (min-width: 600px) {
+  .career-content {
+    padding: 50px 100px 0 100px;
+    width: 500px;
+  }
+  .career-text {
+    width: 400px;
+  }
+  .career-text h3 {
+    font-size: 40px;
+  }
+  .career-text h4 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .career-img img {
+    width: 500px;
+  }
+}
+@media (min-width: 900px) {
+  .career-content {
+    padding: 50px 100px 0 100px;
+    width: 600px;
+  }
+  .career-text {
+    width: 400px;
+  }
+  .career-text h3 {
+    font-size: 40px;
+  }
+  .career-text h4 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .career-img img {
+    width: 600px;
+  }
+}
+/*End of grow your career section*/
+
+/* Mobile first design */
+/*start of mentor section*/
+.mentor-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f3fd;
+  padding-bottom: 80px;
+}
+.mentor-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.mentor-text h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.mentor-text h4 {
+  margin-top: 0;
+  font: 15px;
+  width: 350px;
+  font-weight: 100;
+}
+.mentor-card {
+  display: block;
+  padding: 0 100px 0 100px;
+  margin-top: 30px;
+}
+.card {
+  text-align: center;
+  border: 1px solid #8c9290;
+  border-radius: 12px;
+  background-color: #ffffff;
+  width: 200px;
+  margin: 20px;
+}
+.card-text {
+  padding: 8px;
+}
+.card-text h3 {
+  margin-bottom: 5px;
+}
+.card-text h4 {
+  color: #60269e;
+  font-weight: 100;
+  margin-top: 0;
+}
+.card .card-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.socials {
+  padding-bottom: 12px;
+}
+.socials img {
+  border: 1px solid black;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+}
+/*end of mentor section*/
+
+/* Bigger screen sizes */
+@media (min-width: 600px) {
+  .mentor-text h4 {
+    width: 500px;
+    font-size: 18px;
+  }
+  .card {
+    width: 150px;
+    margin: 10px;
+  }
+  .mentor-card {
+    display: flex;
+  }
+}
+@media (min-width: 900px) {
+  .mentor-text h4 {
+    width: 400px;
+  }
+  .card {
+    width: 200px;
+    margin: 10px;
+  }
+  .mentor-card {
+    display: flex;
+  }
+}
+
+/* Mobile first design */
+/*start of footer-top sectiom*/
+.footer-top-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #101727;
+  border-bottom: 1px solid white;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 20px;
+  align-items: center;
+  color: white;
+  padding: 60px;
+}
+.footer-top-content h3 {
+  font-size: 20px;
+  padding-top: 0;
+  margin-top: 0;
+}
+.devx h4 {
+  width: 300px;
+}
+.footer-top-content ul {
+  padding: 0;
+}
+.footer-top-content li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+/*end of footer-top section*/
+
+/*start of footer-bottom section*/
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #101727;
+  color: white;
+  padding: 10px 20px;
+}
+.footer-bottom-left p {
+  font-size: 15px;
+}
+.footer-bottom-right img {
+  margin: 2px;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+/*End of footer-bottom section*/
+
+/* Bigger screen sizes */
+@media (min-width: 600px) {
+  .footer-top-content {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+  }
+}
+@media (min-width: 900px) {
+  .footer-top-content {
+    display: flex;
+    text-align: left;
+  }
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101727;
+    color: white;
+    padding: 50px 200px 50px 200px;
+  }
+}
