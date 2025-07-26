@@ -14,9 +14,49 @@ This project demonstrates how how a proffesional looking landing page can be bui
 
 ## Preview
 
+##### Desktop View
+
+![img](image/README/desktop1.png)
+
+![img](image/README/desktop2.png)
+
+![img](image/README/desktop3.png)
+
+![img](image/README/desktop4.png)
+
+![img](image/README/desktop5.png)
+
+![img](image/README/desktop6.png)
+
+##### Tablet View
+
+![img](image/README/tablet1.png)
+
+![img](image/README/tablet2.png)
+
+![img](image/README/tablet3.png)
+
+##### Mobile View
+
+![img](image/README/mobile1.png)
+
+![img](image/README/mobile2.png)
+
+![img](image/README/mobile3.png)
+
+![img](image/README/mobile4.png)
+
+![img](image/README/mobile5.png)
+
+![img](image/README/mobile6.png)
+
+![img](image/README/mobile7.png)
+
+![img](image/README/mobile8.png)
+
 ## Live Demo
 
-[[Click her to view the live site](https://devx-project.netlify.app "DevX Live Site")]
+[Click her to view the live site](https://devx-project.netlify.app "DevX Live Site")
 
 ## How to Use
 
