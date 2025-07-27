@@ -2,11 +2,10 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 /* Mobile first design */
 .header {
-  width: 100%;
+  width: 100%; 
   background-color: #f9f3fd;
   position: sticky;
   z-index: 2;
