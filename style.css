@@ -1,11 +1,14 @@
-
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body {
+  overflow-x: hidden;
 }
 /* Mobile first design */
 .header {
-  width: 100%; 
+  width: 100%;
   background-color: #f9f3fd;
   position: sticky;
   z-index: 2;
@@ -351,11 +354,11 @@
 /*End of story section*/
 
 /* Mobile first design */
-/*Start of what sets us apart */
+/*Start of what sets us apart*/
 .what-sets-us-apart {
   text-align: center;
   padding: 50px 0;
-  margin: 0 20px;
+  /* margin: 0 20px; */
 }
 .what-sets-us-apart .main-content {
   display: flex;
@@ -533,7 +536,7 @@ h4 {
   .career-img img {
     width: 500px;
   }
-}
+} 
 @media (min-width: 900px) {
   .career-content {
     padding: 50px 100px 0 100px;
